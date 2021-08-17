@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레드향 주문서</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        li{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>레드향 주문하기</h1>
+    <form action="method=post">
+        <fieldset>
+            <legend>상품 선택</legend>
+            <p>주문할 상풀을 선택해 주세요.</p>
+            <ul>
+                <li>
+                    <label><input type="checkbox" value="g_3">선물용 3kg</label>
+                        <input type="number" min="0" max="5">개 (최대 5개)
+                </li>
+                <li>
+                    <label><input type="checkbox" value="g_5">선물용 5kg</label>
+                        <input type="number" min="0" max="3">개 (최대 3개)
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label><input type="checkbox" value="f_3">가정용 3kg</label>
+                        <!-- <input type="number" min="0" max="5">개 (최대 5개) -->
+                        <input type="range" min="0" max="5">개 (최대 5개)
+                </li>
+                <li>
+                        <label><input type="checkbox" value="f_5">가정용 5kg</label>
+                        <!-- <input type="number" min="0" max="3">개 (최대 3개) -->
+                        <input type="range" min="0" max="5">개 (최대 3개)
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="gift" value="yes">선물 포장
+                    </label>
+                    <label>
+                        <input type="radio" name="gift" value="no">선물 포장 안함
+                    </label>
+                    <label>
+                        <input type="date" name="day" value="day">배송 날짜
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+</body>
+</html>

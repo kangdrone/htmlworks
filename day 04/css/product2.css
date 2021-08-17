@@ -1,0 +1,12 @@
+#container{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th, td{padding: 10px 20px;}
+caption{margin-bottom: 10px;}

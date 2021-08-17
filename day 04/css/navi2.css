@@ -1,0 +1,26 @@
+header{
+    height: 60px;
+    padding: 10px;
+    /* background-color: beige ; */
+}
+nav{
+    list-style: none;
+}
+nav ul li{
+    /* 수평 배치 */
+    display: inline;
+    margin: 10px 20px;
+    border-top: 3px solid #0000ff ;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #0000ff;
+}
+nav ul li:hover{
+    background-color: #0000ff34;
+}
+section{
+    background-color: #ccc;
+    height: 500px;
+}

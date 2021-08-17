@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스 모서리 스타일</title>
+    <style>
+        div{
+            margin-top: 100px;
+            display: inline-block;
+            /* 수평 배치 - 속성을 바꿀때는 inline-block */
+        }
+        .img1{
+            border-radius: 80px;
+            /* px - 반지름의 크기 */
+        }
+        .img2{
+            border-radius: 40%;
+            /* 현재 요소(이미지 크기) - 300px */
+        }
+    </style>
+</head>
+<body>
+    <div> 
+    <img class="img1" src="./images/bear.jpg" alt="곰인형">
+    <img class="img2" src="./images/bear.jpg" alt="곰인형">
+    </div>
+</body>
+</html>

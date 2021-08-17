@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경색 투명도 조정</title>
+    <style>
+        body{
+            background: #000;
+        }
+        /* rgba(0,0,0,1) - 마지막 부분이 알파값(투명도) 
+           1이 불투명, 0이 투명*/
+        #text1{
+            color: rgba(255, 255, 255, 1);
+        }
+        #text2{
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .text3{
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .text4{
+            color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text1">html5+css3</h1>
+    <h1 id="text2">html5+css3</h1>
+    <h1 class="text3">html5+css3</h1>
+    <h1 class="text4">html5+css3</h1>
+</body>
+</html>

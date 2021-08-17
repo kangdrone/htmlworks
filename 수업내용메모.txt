@@ -1,0 +1,74 @@
+https://www.daum.net/
+https:255.15.211.8
+
+cafe24(도메인, 호스팅 서비스 회사)
+도메인등록비 - 1년 22,000원, 저장공간(10,000) < 사업시 필요 >
+
+DNS(Domain Name Service) : 문자로 된 도메인을 IP주소로 바꿔주는 서비스
+
+1byte = 8bit = 2의 8제곱 = 256EA (0~256)
+
+로컬 서버 주소
+https://124.0.0.1:5500
+웹 포트(port) : 5500
+ftp 포트 : 21, 22
+
+div = 박스
+nav = 네비게이션 박스
+anchor = 정보란 클릭링크
+span = 단어 선택
+
+행 관련 명령어
+rowspan(행 합치기)
+colspan(열 합치기)
+caption(행 제목)
+bold(글꼴-굵게)
+padding(바깥쪽)
+margin(안쪽)
+padding 및 margin 관련 설정 방향 top right bottom left (시계 방향)
+ex) padding: 10px 10px 10px 10px;
+
+폼(form)관련 명령어
+date - 날짜
+time - 시간
+
+color # 여섯자리  or #색상이름
+ex) #ffffff , #000000
+    #black , # green
+
+    bit(binary oligit)
+   
+   ex) 10진수 : 0 1 2 3 ... 10
+    
+    2진수 : 00000000
+            00000001
+            ......10
+            ......11
+            .....100
+              .
+              .
+              .
+            ....1000
+    16진수 : 0 1 2 ... 9 A B C ...
+
+    아스키코드            유니코드 ?
+    49 - 0
+    50 - 1
+       .
+       .
+       .
+    65 - A
+    66 - B
+       .
+       .
+    97 - a
+    98 - b
+
+    class 쓰는건 여러개 설정할 때 쓰임 - selector 파일
+
+    마진(margin)
+    body - 8px
+    <h> - 21
+    <ul> - 16
+    *{margin : 0 } (마진초기화)
+     ?  ?  ?     (가운데)

@@ -1,0 +1,21 @@
+#container{
+    width: 700px;
+    margin: 20px auto;
+    border: none;
+}
+div{
+    border: 1px solid #444;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+#description{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+p{line-height: 1.5;}
+table, th, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+th, td{padding: 10px 20px;}
+caption{margin-bottom: 10px;}

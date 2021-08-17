@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여러줄 입력 태그</title>
+    <style>
+        fieldset{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>배송 업무</legend>
+            <textarea name="memo" cols="30" rows="3" 
+                      placeholder="배송시 요청사항을 적어주세요"></textarea>
+                      <!-- 열의 글자수 영어 - 30자, rows - 줄(행) 수, placeholedr - 힌트 -->
+        </fieldset>
+        <input type="submit" value="전송">
+        <input type="reset"  value="취소">
+    </form>
+</body>
+</html>

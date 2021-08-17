@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마진 여백 스타일</title>
+    <style>
+        #wrap{
+            width: 600px;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin: 0px auto;
+            /* 위/아래 여백은 0px이고 좌우는 자동으로 여백이 같은 크기로 설정됨 */
+        }
+        div{width: 200px; height: 100px; display: inline-block;}
+        .box1{background-color: skyblue ;margin:30px}
+        .box2{background-color: paleturquoise ;margin: 15px;}
+        .box3{background-color: blue ;margin: 15px;}
+        /*  수직 배치에서는 마진이 중첩된 경우 큰 쪽으로 설정됨 */
+    </style>
+</head>
+<body>
+    <dvi id="wrap">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>
