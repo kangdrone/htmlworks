@@ -1,0 +1,17 @@
+#container{
+    width: 700px;
+    margin: 0 auto;
+}
+fieldset{
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none ;
+}
+ul li{
+    margin: 15px 5px;
+}
+#button input[type="simbut"],[type="reset"]{
+    width: 80px;
+    height: 30px;
+}

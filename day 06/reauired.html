@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다양한 태그의 속성</title>
+    <link rel="stylesheet" href="./reauired.css">
+</head>
+<body>
+    <div id="container">
+        <h2>레드향 주문하기</h2>
+        <form>
+            <fieldset>
+                <legend>배송 정보</legend>
+                 <ul>
+                     <li>
+                         <label for="prod">주문 상품 </label>
+                         <input type="text" id="prod" value="상품용 3kg" readonly>
+                     </li>
+                     <li>
+                         <label for="uname">이름 </label>
+                         <input type="text" id="uname" autofocus required>
+                         <!-- autofocus - 자동으로 커서의 위치가 설정됨 -->
+                     </li>
+                     <li>
+                         <label for="addr">배송 주소 </label>
+                         <input type="text" id="addr" size=50 required>
+                     </li>
+                     <li>
+                         <label for="phone">연락처 </label>
+                         <input type="text" id="phone" 
+                                placeholder="하이폰 빼고 입력해 주세요" required>
+                     </li>
+                     <li>
+                         <label for="day">배송 지정 </label>
+                         <input type="date" id="day"><small>(주문일로부터 최소 3일 이후)</small>
+                     </li>
+                     <li>
+                         <textarea form="memo" cols="30" rows="5"
+                             placeholder="배송시 요청사항을 적어주세요">
+                         </textarea>
+                     </li>
+                 </ul>
+            </fieldset>
+            <div id="button">
+                <input type="submit" value="주문하기">
+                <input type="reset"  value="취소하기">
+        </form>
+    </div>
+</body>
+</html>
