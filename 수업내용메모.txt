@@ -78,3 +78,20 @@ ex) #ffffff , #000000
     <ul> - 16
     *{margin : 0 } (마진초기화)
      ?  ?  ?     (가운데)
+
+
+     cmd 순서
+
+     cd c:/
+     dir(총파일목록)
+     cd webDev(파일명)
+     dir
+     cd (파일명)
+     git status
+     git add *
+     git commit -m "(파일명) 디렉터리 추가"
+     git push
+
+     그 외 명령어
+     cd.. (전 파일로 돌아가기)
+     git config - ? ? ?
