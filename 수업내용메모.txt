@@ -80,7 +80,7 @@ ex) #ffffff , #000000
      ?  ?  ?     (가운데)
 
 
-     cmd 순서
+     * cmd 순서 *
 
      cd c:/
      dir(총파일목록)
@@ -95,3 +95,5 @@ ex) #ffffff , #000000
      그 외 명령어
      cd.. (전 파일로 돌아가기)
      git config - ? ? ?
+
+     github주소/내 아이디

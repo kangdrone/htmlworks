@@ -1,0 +1,35 @@
+#container{
+    width: 960px;
+    /* border: 1px solid #ccc; */
+    margin: 0 auto;
+}
+/* header 영역 스타일 */
+header{
+    /* width 설정하지 않아도 자동으로테두리,
+       패딩 크기 조절이 됨 */
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+/* 본문 영역 스타일 */
+section{
+    border: 1px solid #ccc;
+    width: 640px;
+    /* ex)640 + 20x2(패딩값) + 1x2(보더값) = 682 */
+    height: 600px;
+    padding: 20px;
+    float: left;
+}
+aside{
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 600px;
+    padding: 20px;
+    float:right ;
+}
+/* footer 영역 스타일 */
+footer{
+    border: 1px solid #ccc;
+    clear: both;
+    height: 100px;
+    padding: 20px;
+}
