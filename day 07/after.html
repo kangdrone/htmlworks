@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 요소 선택자</title>
+    <style>
+        ul li{
+            margin: 15px;
+        }
+        ul li.new::after{
+            content: "new";
+            background-color: red;
+            color: white;
+            font-size: x-small;
+            padding: 2px 4px;
+            border-radius: 4px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>상품 목록</h2>
+        <ul>
+            <li class="new">라면</li>
+            <li>생수</li>
+            <li>두부</li>
+            <li class="new">커피</li>
+        </ul>
+    </div>
+</body>
+</html>

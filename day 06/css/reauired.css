@@ -11,7 +11,7 @@ ul{
 ul li{
     margin: 15px 5px;
 }
-#button input[type="simbut"],[type="reset"]{
+#button input[type="simbut"],input[type="reset"]{
     width: 80px;
     height: 30px;
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성 선택자 사용</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        ul li{
+            margin: 15px;
+        }
+        ul li a:link a:visited{
+            text-decoration: none;
+        }
+        ul li a:hover{
+            /* 가상 선택자 - (:)콜론을 붙임 - 마우스를 올렸을 때 스타일 적용 */
+            color: #ff00ff;
+        }
+        ul li a[target="_blank"]{
+            /* 속성 선택자 - [], 리스트괄호 사용 */
+            background: url("images/newwindow.png") no-repeat center right;
+            padding-right: 20px;
+        }
+        h2:active{
+            /* 마우스 클릭했을 때 스타일 적용 */
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h2>주요 포털 사이트</h2>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">구글(google)</a></li>
+        <li><a href="https://www.daum.com">다음(daum)</a></li>
+        <li><a href="https://www.naver.com">네이버(naver)</a></li>
+    </ul>
+</body>
+</html>

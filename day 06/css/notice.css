@@ -8,7 +8,8 @@
     border: 1px solid coral;
     margin: 2px ;
     padding: 20px 40px;
-    background-image: url(./images/notice.jpg);
+    background-image: url(../images/notice.jpg);
+    background-size: no-repeat;
     background-size: cover;
 }
 ul li{
