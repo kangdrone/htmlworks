@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform 속성</title>
+    <style>
+        div.a{
+            width: 150px;
+            height: 80px;
+            background-color: skyblue ;
+        }
+        div.b{
+            width: 150px;
+            height: 80px;
+            background-color: skyblue ;
+        }
+        div.b:hover{
+            /* 회전 - deg(degree:각도) */
+            transform: rotate(20deg);
+        }
+        div.c{
+            width: 150px;
+            height: 80px;
+            background-color: skyblue ;
+        }
+        div.c:hover{
+            /* 이동 */
+            transform: translateX(50px);
+        }
+        div.d{
+            width: 150px;
+            height: 80px;
+            background-color: skyblue ;
+            /* 크기 변동 */
+        }
+        div.d:hover{
+            transform:scaleY(1.5);
+            transform: scale(0.6);
+        }
+    </style>
+</head>
+<body>
+    <h2>변형 전 개체</h2>
+    <div class="a">hello world</div>
+
+    <h2>transform: rotata(20deg)</h2>
+    <div class="b">hello world</div>
+    
+    <h2>transform: translateX(50px)</h2>
+    <div class="c">hello world</div>
+
+    <h2>transform: scaleY(1.5)</h2>
+    <div class="d">hello world</div>
+</body>
+</html>

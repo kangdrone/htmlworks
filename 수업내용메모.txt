@@ -99,3 +99,12 @@ ex) #ffffff , #000000
      git config - ? ? ?
 
      github주소/내 아이디
+
+     깃 허브 첫날
+     1.git clone 깃허브주소
+     2.git pull
+
+     닷홈 https://www.dothome.co.kr/
+     본인ID.dothome.co.kr - http://tlsqja1120.dothome.co.kr/
+     파일 업로드 프로그램(FTP) -> 알디스크,파일질라
+

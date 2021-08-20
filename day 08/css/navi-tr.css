@@ -1,17 +1,24 @@
+*{
+    margin: 0;
+}
 header{
     height: 60px;
     padding: 10px;
     /* background-color: beige ; */
+    margin-bottom: 20px;
 }
 nav{
     list-style: none;
 }
 nav ul li{
     /* 수평 배치 */
-    display: inline;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
     margin: 10px 20px;
     border-top: 3px solid #0000ff ;
     padding: 10px;
+    text-align: center;
 }
 nav ul li a{
     text-decoration: none;
