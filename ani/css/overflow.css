@@ -1,0 +1,19 @@
+div{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+#ex1{
+    background: wheat;
+    overflow: visible;
+}
+#ex2{
+    background: orange;
+    overflow: hidden;
+}
+#ex3{
+    background: aquamarine;
+    overflow: auto;
+}

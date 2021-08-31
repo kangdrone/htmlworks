@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>트랜지션(transition) 예제</title>
+    <style>
+        .tr{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin: 100px;
+            /* 시간에 따라 속성이 변함 */
+            /* transition-property: width, height;
+            transition-duration: 1s, 1s;  쉼표 넣을 것 - 주의 */
+
+            transition: width, height, 2s, 1s;
+        }
+        .tr:hover{
+            width: 200px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tr"></div>
+</body>
+</html>

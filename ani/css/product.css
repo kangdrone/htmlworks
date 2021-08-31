@@ -1,0 +1,35 @@
+#container{
+    width: 1000px;
+    margin: 20px auto;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.prod-list{
+    list-style: none;
+}
+.prod-list li{
+    float: left;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;  /* 200px 만큼만 보임 */
+}
+.prod-list img{
+    float: left;
+}
+.prod-list .caption{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);  /* 반투명한 검정 배경 */
+    position: absolute;
+    top: 200px;
+    transition: all 1s ease-in-out;  /* 나타날 때 부드럽게 */
+}
+.prod-list li:hover .caption{
+    transform: translateY(-200px);  /* 설명글이 위로 200px 이동 */
+}
+.prod-list .caption h1 .caption p{
+    color: #fff;
+    text-align: center;
+}

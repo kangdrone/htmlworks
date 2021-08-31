@@ -55,7 +55,9 @@ h2{
     font-size:1.5em;
 }
 h3 {
-    font-size:1.3em;
+    font-size:1.0em;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 p {
     line-height:2;
@@ -65,35 +67,60 @@ article{
     width: 400px;
     height: 300px;
     border: 1px dotted #ccc;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    float: left;
 }
 article.at1{
-    float: left;
-}
-article.at2{
-    float: left;
-}
-article.at3{
-    float: left;
+    background: url(../images/1.png) no-repeat right bottom;
 }
 article.at4{
+    background: url(../images/2.png) no-repeat right bottom;
+}
+article.at1:hover{
+    background-color: rgb(196, 196, 172);
+    transition: 1s;
+}
+article.at2:hover{
+    background-color: rgb(196, 196, 172);
+    transition: 1s;
+}
+article.at3:hover{
+    background-color: rgb(196, 196, 172);
+    transition: 1s;
+}
+article.at4:hover{
+    background-color: rgb(196, 196, 172);
+    transition: 1s;
+}
+
+/* 강아지 종류 페이지 */
+article.type{
+    width: 28%; 
+    height: 600px; 
     float: left;
 }
-article.type{
-    width: 28%;
-    height: 600px;
-    float: left;
+article.type h3{
+    background: url('../images/bg-note.png') no-repeat;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+article.type dl dt{
+    line-height: 1.7;
+}
+article.type dl dd{
+    font-weight: bold;
+    margin: 5px 0;
 }
 footer {
     clear: left;
     width:100%;
-    height:50px;
-    background-color:#222;
+    height:100px;
+    background-color:rgb(64, 70, 54);
 }
 footer > p {
     color:#fff;
     font-size:0.9em;
-    text-align: center;
-    line-height:50px;
+    padding: 10px 50px;
 }
