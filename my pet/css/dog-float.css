@@ -1,126 +1,80 @@
-*{
-    margin: 0; padding: 0;
-}
-#container{
-    width: 1000px;
-    margin: 0 auto;
-}
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 0 auto;}
+
 /* header 스타일 */
-header{
-    height: 80px;
-    background-color: rgb(179, 228, 228);
-    margin-bottom: 20px;
-}
+header{height: 80px; background-color: rgb(179, 228, 228); margin-bottom: 20px; }
+
 /* logo 스타일 */
-#logo{
-    width: 250px;
-    float: left;
-    padding-left: 30px;
-    line-height: 80px;
-    /* height와 같은 크기이면 수직 가운데 정렬됨 */
-}
-#logo a{
-    text-decoration: none;
-    color: white;
-}
-#logo a:hover{
-    color: yellowgreen;
-}
+#logo{width: 250px; float: left; line-height: 80px; padding-left: 20px;} /* height와 같은 크기이면 수직 가운데 정렬됨 */
+#logo a{text-decoration: none; color: white;}
+#logo a:hover{color: yellowgreen;}
+
 /* nav 스타일 */
-nav{
-    height: 80px;
-    float: right;
-}
-nav ul{
-    list-style: none;
-    text-align: right;
-    margin-right: 50px;
-}
-nav ul li{
-    display: inline-block;
-    margin: 30px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
-nav ul li a:hover{
-    color: yellowgreen;
-}
-section{
+nav{height: 80px; float: right;}
+nav ul{list-style: none; text-align: right; margin-right: 50px;}
+nav ul li{display: inline-block; margin: 30px;}
+nav ul li a{text-decoration: none; color: white;}
+nav ul li a:hover{color: yellowgreen;}
+
+/* 본문 스타일 */
+/* index 페이지 */
+ #sec1{width: 920px; height: 350px; margin: 0 auto;}
+ #sec1 h2{margin-left: 0; padding-left: 0;}
+ #sec1 .goods{list-style: none;  /* 불릿 제거 */}
+ #sec1 .goods li{float: left; margin: 25px; overflow: hidden; position: relative; /* 설명글 숨기기 */}
+ #sec1 .goods li img{float: left;}
+ #sec1 .goods li .caption{
+     width: 250px;
+     height: 250px;
+     position: absolute;
+     top: 250px;
+     background: rgba(0, 0, 0, 0.6);
+     transition: all 0.7s ease-in-out;}
+ #sec1 .goods li:hover .caption{transform: translateY(-250px);}
+ #sec1 .goods li .caption h2, .caption p{color: #fff; text-align: center;}
+ #sec1 .goods li .caption h2{padding-top: 30px;}
+ #sec1 .goods li .caption p{margin: 20px 10px;}
+ #sec2{width: 920px; margin: 0 auto;}
+ #sec2 h2{margin: 30px 10px 10px 0; padding-left: 0;}
+ #sec2 h3{margin: 10px 10px 10px 20px; font-size: 1.2em;}
+ #sec2 ul li{margin: 10px 50px; line-height: 1.7;}
+ #sec .info{padding-left: 30px; margin-bottom: 10px;}
+
+ /* 강아지 종류 페이지 */
+article.type{width: 270px;  height: 600px;  float: left; margin: 10px 5px 20px 30px;}
+section h2{padding-left: 30px; margin:10px;}
+article.type h3{background: url('../images/bg-note.png') no-repeat;
+                padding-left: 30px;
+                margin: 10px 0;}
+article.type dl dt{font-weight: bold; margin: 5px 0;}
+article.type dl dd{line-height: 1.7;}
+
+
+/* 강아지 용품 페이지 */
+/* section{
     width:900px;
     margin: 0 auto;	
-}
-h2{
-    font-size:1.5em;
-}
-h3 {
-    font-size:1.0em;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-p {
-    line-height:2;
-    font-size:14px;
-}
+} */
+section h2{font-size:1.5em;}
+section h3 {font-size:1.0em; margin-bottom: 10px; font-weight: bold;}
+section p {line-height:2; font-size:14px;}
 article{
     width: 400px;
     height: 300px;
-    border: 1px dotted #ccc;
-    border-radius: 10px;
-    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px 20px 40px;
     padding: 10px;
-    float: left;
-}
-article.at1{
-    background: url(../images/1.png) no-repeat right bottom;
-}
-article.at4{
-    background: url(../images/2.png) no-repeat right bottom;
-}
-article.at1:hover{
-    background-color: rgb(196, 196, 172);
-    transition: 1s;
-}
-article.at2:hover{
-    background-color: rgb(196, 196, 172);
-    transition: 1s;
-}
-article.at3:hover{
-    background-color: rgb(196, 196, 172);
-    transition: 1s;
-}
-article.at4:hover{
-    background-color: rgb(196, 196, 172);
-    transition: 1s;
-}
+    float: left;}
+article.at1{background: url(../images/1.png) no-repeat right bottom;}
+article.at4{background: url(../images/2.png) no-repeat right bottom;}
+article.at1:hover{background-color: rgb(196, 196, 172); transition: 1s;}
+article.at2:hover{background-color: rgb(196, 196, 172); transition: 1s;}
+article.at3:hover{background-color: rgb(196, 196, 172); transition: 1s;}
+article.at4:hover{background-color: rgb(196, 196, 172); transition: 1s;}
 
-/* 강아지 종류 페이지 */
-article.type{
-    width: 28%; 
-    height: 600px; 
-    float: left;
-}
-article.type h3{
-    background: url('../images/bg-note.png') no-repeat;
-    padding-left: 30px;
-    margin: 10px 0;
-}
-article.type dl dt{
-    line-height: 1.7;
-}
-article.type dl dd{
-    font-weight: bold;
-    margin: 5px 0;
-}
-footer {
-    clear: left;
-    width:100%;
-    height:100px;
-    background-color:rgb(64, 70, 54);
-}
-footer > p {
-    color:#fff;
-    font-size:0.9em;
-    padding: 10px 50px;
-}
+/* footer 스타일 */
+footer {clear: left; width:100%; height:100px; background-color:rgb(153, 113, 155);}
+footer .logo-pic img{float: left; margin: 10px 10px 10px 20px; padding: 10px ;}
+footer address{padding: 15px 50px;}
+footer address p{color: rgb(90, 90, 90); font-style: normal; font-size:0.9em; line-height: 1.8;}

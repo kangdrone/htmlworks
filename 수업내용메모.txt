@@ -115,3 +115,8 @@ ex) #ffffff , #000000
      본인ID.dothome.co.kr - http://tlsqja1120.dothome.co.kr/
      파일 업로드 프로그램(FTP) -> 알디스크,파일질라
 
+
+
+orientation portrait    단말기의 세로
+orientation landscape   단만기의 가로
+
