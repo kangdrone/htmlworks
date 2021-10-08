@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스 박스 예제</title>
+    <style>
+        .container{
+            /* width가 없으면 브라우저 100t% 크기임 */
+            border: 1px solid #000 ;
+            background-color: aqua;
+            display: flex;
+            /* justify-content: flex-start;   /* 주축의 시작점에 맞춤 */
+            /*justify-content: flex-end;   /* 주죽의 끝점에 맞춤 */
+            /*justify-content: center;   /* 주죽의 가운데에 맞춤 */
+            /*justify-content: space-between;   /* 시작점과 끝점에 동일한 간격으로 배치 */
+            justify-content: space-around;   /* 주죽에 동일한 간격 */
+        }
+        .box{
+            width: 80px;
+            background-color: cornflowerblue;
+            margin: 5px;
+            padding: 5px 10px;
+        }
+        p{
+            color: black;
+            text-align: center;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><p>1</p></div>
+        <div class="box"><p>2</p></div>
+        <div class="box"><p>3</p></div>
+        <div class="box"><p>4</p></div>
+        <div class="box"><p>5</p></div>
+        <div class="box"><p>6</p></div>
+    </div>
+</body>
+</html>

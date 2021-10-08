@@ -21,7 +21,9 @@ nav - 네비게이션 박스
 anchor - 정보란 클릭링크
 span - 단어 선택
 float - OOOO - 같은 위치 선상 - 방향
-ex) float - left 
+ex) float - left
+display: flex - 박스형(가로정렬) 
+flex-direction : OOO (박스 순서및 배치)
 
 행 관련 명령어
 rowspan - 행 합치기
