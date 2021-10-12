@@ -122,3 +122,6 @@ ex) #ffffff , #000000
 orientation portrait    단말기의 세로
 orientation landscape   단만기의 가로
 
+디자인 프레임워크 - 부트스트랩(bootstrap)
+bootstrap.css
+bootstrap.min.css  (옆으로 쭉 나열)
