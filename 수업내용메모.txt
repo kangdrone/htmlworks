@@ -125,3 +125,6 @@ orientation landscape   단만기의 가로
 디자인 프레임워크 - 부트스트랩(bootstrap)
 bootstrap.css
 bootstrap.min.css  (옆으로 쭉 나열)
+
+그리드 시스템(Grid System)
+반응형 웹 페이지를 구현하기 위한 필수 기능, 한 행을 12열로 구분하는 그리스시스템을 제공
