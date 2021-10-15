@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <script src="js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <h2>어서 오세요 방문을 환영합니다.</h2>
+    <div class="demo">
+        <p id="intro">내 이름은 강신범입니다.</p>
+        <p>나는 인천에 살고 있습니다.</p>
+    </div>
+    <script>
+        $(document).ready(function(){
+            // $("#intro").css("color", 'blue');
+            $("#intro").css({'color': 'red', 'font-size': '1.5rem'});
+            $("#intro").next('p').css({'background-color': 'greenyellow'});
+            $(".demo").append("<p>고맙습니다</p>");   // 부모 요소에 자식 요소 추가하기
+        });
+    </script>
+    
+    </script>
+</body>
+</html>
