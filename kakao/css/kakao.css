@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0;}
+#container{width: 1000px; margin: 0 auto;}
+
+ #main1{width: 920px; height: 350px; margin: 0 auto;}
+ #main1 h2{margin-left: 0; padding-left: 0;}
+ #main1 .goods{list-style: none;  /* 불릿 제거 */}
+ #main1 .goods li{float: left; margin: 25px; overflow: hidden; position: relative; /* 설명글 숨기기 */}
+ #main1 .goods li img{float: left;}
+ #main1 .goods li .caption{
+     width: 250px;
+     height: 250px;
+     position: absolute;
+     top: 250px;
+     background: rgba(0, 0, 0, 0.6);
+     transition: all 0.7s ease-in-out;}
